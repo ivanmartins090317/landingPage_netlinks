@@ -2,13 +2,18 @@ import styled from "styled-components";
 
 export const PageOne = styled.div`
   background-color: rgba(49, 54, 172, 1);
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 94.5rem;
+  height: 63.9rem;
+  left: 0px;
+  top: 0px;
+
+  /* font-size: calc(10px + 2vmin);
+  color: white; */
 `;
 
 export const PageTwo = styled(PageOne)``;
@@ -17,27 +22,37 @@ export const PageThree = styled(PageOne)``;
 
 export const PageFour = styled(PageOne)``;
 
-// render(
-//   <>
-//     <div>
-//       <img src="" alt="Seu logo" srcset="" />
-//     </div>
-//     <div>
-//       <h2>
-//         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
-//         nostrum cupiditate alias perspiciatis architecto beatae est, ab hic
-//         voluptates dolorem animi vitae minus corporis. Sit error praesentium
-//         sapiente cumque tempore.
-//       </h2>
-//     </div>
+export const ContainerImag = styled.span`
+  width: 25.3rem;
+  height: 11.13rem;
+  margin: 7.5rem 57.18rem 0 11.7rem;
+  color: #f9f9f9;
+`;
 
-//     <div>
-//       <h3>
-//         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam
-//         sequi, magnam illo corrupti atque consectetur quod incidunt id totam sit
-//         magni modi ab asperiores repellat nihil beatae repudiandae voluptates?
-//         Tempora?
-//       </h3>
-//     </div>
-//   </>
-// );
+export const ContainerH2 = styled.h2`
+  width: 28.93rem;
+  height: 8.25rem;
+  margin: 0 53.87rem 2.75rem 11.68rem;
+  padding: 0;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.42rem;
+  line-height: 3rem;
+
+  color: #f9f9f9;
+`;
+
+export const ContainerP = styled.p`
+  width: 29.5rem;
+  height: 11.93rem;
+  margin: 2.43rem 8.87rem 2.43rem -31.87rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.87rem;
+
+  color: #f9f9f9;
+`;

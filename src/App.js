@@ -1,28 +1,38 @@
-import { PageOne, PageTwo, PageThree, PageFour } from "./PageOne";
+import {
+  PageOne,
+  PageTwo,
+  PageThree,
+  PageFour,
+  ContainerImag,
+  ContainerH2,
+  ContainerP,
+} from "./PageOne";
+import BlockOne from "./blockOne";
+
+import logo_Topo from "./image/image_logo_topo.svg";
 
 function App() {
   return (
     <>
       <PageOne>
-        <div>
-          <img src="" alt="Seu logo" srcset="" />
-        </div>
-        <div>
-          <h2>
-            // Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Delectus // nostrum cupiditate alias perspiciatis architecto beatae
-            est, ab hic // voluptates dolorem animi vitae minus corporis. Sit
-            error praesentium // sapiente cumque tempore.
-          </h2>
-        </div>
-        <div>
-          <h3>
+        <ContainerImag>
+          <div>
+            <img src={logo_Topo} alt="Seu logo" />
+          </div>
+        </ContainerImag>
+        <ContainerH2>
+          <h2>// Lorem ipsum dolor, sit amet consectetur .</h2>
+        </ContainerH2>
+
+        <ContainerP>
+          <p>
             // Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Quibusdam // sequi, magnam illo corrupti atque consectetur quod
             incidunt id totam sit // magni modi ab asperiores repellat nihil
             beatae repudiandae voluptates? // Tempora?
-          </h3>
-        </div>
+          </p>
+        </ContainerP>
+        <BlockOne />
       </PageOne>
       <hr />
       <PageTwo>pagina 2</PageTwo>
