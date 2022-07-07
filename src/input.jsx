@@ -1,9 +1,15 @@
 import styled from "styled-components";
 
 export const Input = styled.input`
-  &::placeholder {
-    margin-left: 10rem;
-    color: #f3a2a2;
+  &&::placeholder {
+    left: 15rem;
+    color: rgba(152, 152, 152, 1);
+    padding: 0 0 0 26px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.65px;
+    line-height: 23px;
   }
   box-sizing: border-box;
 

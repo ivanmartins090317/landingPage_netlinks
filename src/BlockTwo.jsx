@@ -41,7 +41,8 @@ function BlockTwo() {
           <Input2 placeholder="Meu site" />
           <Input3 placeholder="Email" />
           <Input4 placeholder="Telefone" />
-          <Botao primary />
+
+          <Botao primary>Enviar</Botao>
         </FormContainer>
       </div>
     </>

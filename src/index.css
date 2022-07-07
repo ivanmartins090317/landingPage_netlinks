@@ -3,4 +3,5 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: rgba(49, 54, 172, 1);
+  /* overflow-x: hidden; */
 }

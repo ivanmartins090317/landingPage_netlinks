@@ -36,7 +36,9 @@ function App() {
         <BlockTwo />
       </PageOne>
       <hr />
-      <PageTwo>pagina 2</PageTwo>
+      <PageTwo>
+        pagina 2<header>Lorem ipsum dolor sit amet.</header>
+      </PageTwo>
       <hr />
       <PageThree>pagina 3</PageThree>;
       <hr />

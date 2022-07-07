@@ -4,7 +4,7 @@ export const StyelH2 = styled.h2`
   width: 534px;
   height: 65px;
 
-  font-family: "Poppins";
+  font-family: poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;

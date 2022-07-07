@@ -35,7 +35,7 @@ export const ContainerH2 = styled.h2`
   margin: 0 53.87rem 2.75rem 11.68rem;
   padding: 0;
 
-  font-family: "Poppins";
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 2.42rem;
@@ -48,7 +48,7 @@ export const ContainerP = styled.p`
   width: 29.5rem;
   height: 11.93rem;
   margin: 2.43rem 8.87rem 2.43rem -31.87rem;
-  font-family: "Poppins";
+  font-family: poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.25rem;

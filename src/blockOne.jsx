@@ -25,6 +25,7 @@ function BlockOne() {
           </ContainerLogo>
           <ContainerP>
             <strong>Lorem ipsum dolor.</strong>
+            <br />
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Perspiciatis, dolores.
           </ContainerP>
@@ -36,6 +37,7 @@ function BlockOne() {
           </ContainerLogo>
           <ContainerP>
             <strong>Lorem ipsum dolor.</strong>
+            <br />
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Perspiciatis, dolores.
           </ContainerP>
@@ -49,6 +51,7 @@ function BlockOne() {
           </ContainerLogo>
           <ContainerP>
             <strong>Lorem ipsum dolor.</strong>
+            <br />
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Perspiciatis, dolores.
           </ContainerP>
@@ -60,6 +63,7 @@ function BlockOne() {
           </ContainerLogo>
           <ContainerP>
             <strong>Lorem ipsum dolor.</strong>
+            <br />
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Perspiciatis, dolores.
           </ContainerP>

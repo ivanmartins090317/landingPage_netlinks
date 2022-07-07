@@ -42,7 +42,7 @@ export const ContainerP = styled.p`
   left: 16.81rem;
   top: 43.37rem;
 
-  font-family: "Poppins";
+  font-family: poppins, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 11.6053px;
