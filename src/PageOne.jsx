@@ -16,7 +16,11 @@ export const PageOne = styled.div`
   color: white; */
 `;
 
-export const PageTwo = styled(PageOne)``;
+export const PageTwo = styled(PageOne)`
+  display: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+`;
 
 export const PageThree = styled(PageOne)``;
 
