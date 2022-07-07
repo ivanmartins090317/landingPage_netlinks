@@ -16,10 +16,18 @@ export const PageOne = styled.div`
   color: white; */
 `;
 
-export const PageTwo = styled(PageOne)`
-  display: none;
+export const PageTwo = styled.div`
+  background-color: rgba(49, 54, 172, 1);
+
+  width: 94.5rem;
+  height: 63.9rem;
+  left: 0px;
+  top: 0px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const PageThree = styled(PageOne)``;

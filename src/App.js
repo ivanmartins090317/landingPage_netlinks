@@ -11,9 +11,21 @@ import {
 } from "./PageOne";
 import BlockOne from "./blockOne";
 import BlockTwo from "./BlockTwo";
-import { ContentImg } from "./PageTwocss";
+import {
+  ContentImg,
+  ContentImg1,
+  ContentImg2,
+  ContentImg3,
+  ContentLorem,
+  ContentLorem1,
+  ContentLorem2,
+  ContentLorem3,
+  ContentHeader,
+  LineVertical,
+} from "./PageTwocss";
 // imagens
 import logo_Topo from "./image/image_logo_topo.svg";
+import Frame_page2 from "./image/Frame_page2.svg";
 
 function App() {
   return (
@@ -41,70 +53,89 @@ function App() {
       </PageOne>
       <hr />
       <PageTwo>
-        pagina 2<header>Lorem ipsum dolor sit amet.</header>
+        <ContentHeader>
+          <span>Lorem</span> ipsum dolor sit amet.
+        </ContentHeader>
         <ContentImg>
-          <img src="" alt="" />
+          1111
+          <img src={Frame_page2} alt="" />
         </ContentImg>
+        <LineVertical>1</LineVertical>
         <div>
-          <h2>Lorem, ipsum.</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
-            error quas quaerat ea. Earum sequi est corporis fugiat accusantium
-            similique? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Repellat fugiat deleniti facere ullam possimus necessitatibus eum
-            nemo odio ab, magni ea dicta error repellendus corrupti molestias?
-            Temporibus, sint, accusamus magni nemo facere illum excepturi fugit
-            omnis nobis reprehenderit a voluptatum optio asperiores adipisci
-            natus, ullam minima in ea. Officia, necessitatibus!
-          </p>
+          <ContentLorem>
+            1<h2>Lorem, ipsum.</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Asperiores error quas quaerat ea. Earum sequi est corporis fugiat
+              accusantium similique? Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Repellat fugiat deleniti facere ullam possimus
+              necessitatibus eum nemo odio ab, magni ea dicta error repellendus
+              corrupti molestias? Temporibus, sint, accusamus magni nemo facere
+              illum excepturi fugit omnis nobis reprehenderit a voluptatum optio
+              asperiores adipisci natus, ullam minima in ea. Officia,
+              necessitatibus!
+            </p>
+          </ContentLorem>
         </div>
-        <div>
+        <ContentImg1>
+          2
           <img src="" alt="" />
-        </div>
+        </ContentImg1>
         <div>
-          <h2>Lorem, ipsum.</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
-            error quas quaerat ea. Earum sequi est corporis fugiat accusantium
-            similique? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Repellat fugiat deleniti facere ullam possimus necessitatibus eum
-            nemo odio ab, magni ea dicta error repellendus corrupti molestias?
-            Temporibus, sint, accusamus magni nemo facere illum excepturi fugit
-            omnis nobis reprehenderit a voluptatum optio asperiores adipisci
-            natus, ullam minima in ea. Officia, necessitatibus!
-          </p>
+          <ContentLorem1>
+            2<h2>Lorem, ipsum.</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Asperiores error quas quaerat ea. Earum sequi est corporis fugiat
+              accusantium similique? Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Repellat fugiat deleniti facere ullam possimus
+              necessitatibus eum nemo odio ab, magni ea dicta error repellendus
+              corrupti molestias? Temporibus, sint, accusamus magni nemo facere
+              illum excepturi fugit omnis nobis reprehenderit a voluptatum optio
+              asperiores adipisci natus, ullam minima in ea. Officia,
+              necessitatibus!
+            </p>
+          </ContentLorem1>
         </div>
-        <div>
+        <ContentImg2>
+          3
           <img src="" alt="" />
-        </div>
+        </ContentImg2>
         <div>
-          <h2>Lorem, ipsum.</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
-            error quas quaerat ea. Earum sequi est corporis fugiat accusantium
-            similique? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Repellat fugiat deleniti facere ullam possimus necessitatibus eum
-            nemo odio ab, magni ea dicta error repellendus corrupti molestias?
-            Temporibus, sint, accusamus magni nemo facere illum excepturi fugit
-            omnis nobis reprehenderit a voluptatum optio asperiores adipisci
-            natus, ullam minima in ea. Officia, necessitatibus!
-          </p>
+          <ContentLorem2>
+            3<h2>Lorem, ipsum.</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Asperiores error quas quaerat ea. Earum sequi est corporis fugiat
+              accusantium similique? Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Repellat fugiat deleniti facere ullam possimus
+              necessitatibus eum nemo odio ab, magni ea dicta error repellendus
+              corrupti molestias? Temporibus, sint, accusamus magni nemo facere
+              illum excepturi fugit omnis nobis reprehenderit a voluptatum optio
+              asperiores adipisci natus, ullam minima in ea. Officia,
+              necessitatibus!
+            </p>
+          </ContentLorem2>
         </div>
-        <div>
+        <ContentImg3>
+          4
           <img src="" alt="" />
-        </div>
+        </ContentImg3>
         <div>
-          <h2>Lorem, ipsum.</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
-            error quas quaerat ea. Earum sequi est corporis fugiat accusantium
-            similique? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Repellat fugiat deleniti facere ullam possimus necessitatibus eum
-            nemo odio ab, magni ea dicta error repellendus corrupti molestias?
-            Temporibus, sint, accusamus magni nemo facere illum excepturi fugit
-            omnis nobis reprehenderit a voluptatum optio asperiores adipisci
-            natus, ullam minima in ea. Officia, necessitatibus!
-          </p>
+          <ContentLorem3>
+            4<h2>Lorem, ipsum.</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Asperiores error quas quaerat ea. Earum sequi est corporis fugiat
+              accusantium similique? Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Repellat fugiat deleniti facere ullam possimus
+              necessitatibus eum nemo odio ab, magni ea dicta error repellendus
+              corrupti molestias? Temporibus, sint, accusamus magni nemo facere
+              illum excepturi fugit omnis nobis reprehenderit a voluptatum optio
+              asperiores adipisci natus, ullam minima in ea. Officia,
+              necessitatibus!
+            </p>
+          </ContentLorem3>
         </div>
       </PageTwo>
       <hr />
