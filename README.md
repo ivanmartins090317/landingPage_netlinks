@@ -1,9 +1,9 @@
-Projeto de criaçao de lange page para teste.
-O projeto consiste em uma pagina estatica para demonstraçao ao cliente criado com apoio a projeto do figma criado pela equipe de desing.
-Tecnologia usadas:
+Lange page creation project for testing.
+The project consists of a static page for customer demonstration created with support to the figma project created by the design team.
+Technology used:
 
-React.js e
-libs como styled-components
+React.js and
+libs as styled-components
 
 To run you need:
 
