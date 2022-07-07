@@ -26,6 +26,7 @@ import {
 // imagens
 import logo_Topo from "./image/image_logo_topo.svg";
 import Frame_page2 from "./image/Frame_page2.svg";
+import SEO_analytics_team from "./image/SEO_analytics_team_1_.svg";
 
 function App() {
   return (
@@ -77,9 +78,10 @@ function App() {
             </p>
           </ContentLorem>
         </div>
+        <hr />
         <ContentImg1>
           2
-          <img src="" alt="" />
+          <img src={SEO_analytics_team} alt="" />
         </ContentImg1>
         <div>
           <ContentLorem1>
@@ -97,6 +99,7 @@ function App() {
             </p>
           </ContentLorem1>
         </div>
+        <hr />
         <ContentImg2>
           3
           <img src="" alt="" />
@@ -117,11 +120,13 @@ function App() {
             </p>
           </ContentLorem2>
         </div>
+        <hr />
         <ContentImg3>
           4
           <img src="" alt="" />
         </ContentImg3>
         <div>
+          <hr />
           <ContentLorem3>
             4<h2>Lorem, ipsum.</h2>
             <p>
@@ -137,6 +142,7 @@ function App() {
             </p>
           </ContentLorem3>
         </div>
+        <hr />
       </PageTwo>
       <hr />
       <PageThree>pagina 3</PageThree>;
