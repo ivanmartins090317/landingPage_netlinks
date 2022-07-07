@@ -8,7 +8,7 @@ import {
   ContainerP,
 } from "./PageOne";
 import BlockOne from "./blockOne";
-
+import BlockTwo from "./BlockTwo";
 import logo_Topo from "./image/image_logo_topo.svg";
 
 function App() {
@@ -21,18 +21,19 @@ function App() {
           </div>
         </ContainerImag>
         <ContainerH2>
-          <h2>// Lorem ipsum dolor, sit amet consectetur .</h2>
+          <h2>Lorem ipsum dolor, sit amet consectetur .</h2>
         </ContainerH2>
 
         <ContainerP>
           <p>
-            // Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Quibusdam // sequi, magnam illo corrupti atque consectetur quod
-            incidunt id totam sit // magni modi ab asperiores repellat nihil
-            beatae repudiandae voluptates? // Tempora?
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam
+            sequi, magnam illo corrupti atque consectetur quod incidunt id totam
+            sit magni modi ab asperiores repellat nihil beatae repudiandae
+            voluptates? Tempora?
           </p>
         </ContainerP>
         <BlockOne />
+        <BlockTwo />
       </PageOne>
       <hr />
       <PageTwo>pagina 2</PageTwo>

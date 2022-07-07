@@ -7,6 +7,8 @@ import {
   ContainerMainBlock,
 } from "./bloOnecss";
 
+import LogoPequeno from "./image/logo_Redondo_pequeno.svg";
+
 function BlockOne() {
   return (
     <>
@@ -19,7 +21,7 @@ function BlockOne() {
       <ContainerMainBlock>
         <ContainerBlock>
           <ContainerLogo>
-            <img src="" alt="logo" />
+            <img src={LogoPequeno} alt="logo" />
           </ContainerLogo>
           <ContainerP>
             <strong>Lorem ipsum dolor.</strong>
@@ -30,7 +32,7 @@ function BlockOne() {
 
         <ContainerBlock>
           <ContainerLogo>
-            <img src="" alt="logo" />
+            <img src={LogoPequeno} alt="logo" />
           </ContainerLogo>
           <ContainerP>
             <strong>Lorem ipsum dolor.</strong>
@@ -43,7 +45,7 @@ function BlockOne() {
       <ContainerMainBlock>
         <ContainerBlock>
           <ContainerLogo>
-            <img src="" alt="logo" />
+            <img src={LogoPequeno} alt="logo" />
           </ContainerLogo>
           <ContainerP>
             <strong>Lorem ipsum dolor.</strong>
@@ -54,7 +56,7 @@ function BlockOne() {
 
         <ContainerBlock>
           <ContainerLogo>
-            <img src="" alt="logo" />
+            <img src={LogoPequeno} alt="logo" />
           </ContainerLogo>
           <ContainerP>
             <strong>Lorem ipsum dolor.</strong>

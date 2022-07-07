@@ -34,8 +34,7 @@ export const PBlock = styled.p`
 export const ContainerLogo = styled.div`
   width: 3.73rem;
   height: 3.73rem;
-  margin: 0 0 0 2.84rem;
-  background-color: #fff;
+  margin: 0 1rem 0.92rem 2.84rem;
 `;
 export const ContainerP = styled.p`
   width: 10.6rem;
