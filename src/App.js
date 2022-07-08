@@ -22,11 +22,18 @@ import {
   ContentLorem3,
   ContentHeader,
   LineVertical,
+  LoremStyle,
+  ImgCenter1,
+  ImgCenter2,
+  ImgCenter3,
+  ImgCenter4,
 } from "./PageTwocss";
 // imagens
 import logo_Topo from "./image/image_logo_topo.svg";
 import Frame_page2 from "./image/Frame_page2.svg";
 import SEO_analytics_team from "./image/SEO_analytics_team_1_.svg";
+import Ilustra_3 from "./image/ilustra_3.svg";
+import Ilustra_4 from "./image/ilustra_4.svg";
 
 function App() {
   return (
@@ -55,16 +62,22 @@ function App() {
       <hr />
       <PageTwo>
         <ContentHeader>
-          <span>Lorem</span> ipsum dolor sit amet.
+          <LoremStyle>
+            <h3></h3>
+          </LoremStyle>
+          <h3>ipsum dolor sit amet.</h3>
         </ContentHeader>
+
         <ContentImg>
-          1111
           <img src={Frame_page2} alt="" />
         </ContentImg>
-        <LineVertical>1</LineVertical>
+        <LineVertical></LineVertical>
         <div>
           <ContentLorem>
-            1<h2>Lorem, ipsum.</h2>
+            <ImgCenter4>
+              <img src="" alt="" />
+            </ImgCenter4>
+            <h2>Lorem, ipsum.</h2>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Asperiores error quas quaerat ea. Earum sequi est corporis fugiat
@@ -78,14 +91,17 @@ function App() {
             </p>
           </ContentLorem>
         </div>
-        <hr />
+
         <ContentImg1>
-          2
           <img src={SEO_analytics_team} alt="" />
         </ContentImg1>
         <div>
+          <ImgCenter1>
+            <h1>1</h1>
+            <img src="" alt="" />
+          </ImgCenter1>
           <ContentLorem1>
-            2<h2>Lorem, ipsum.</h2>
+            <h2>Lorem, ipsum.</h2>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Asperiores error quas quaerat ea. Earum sequi est corporis fugiat
@@ -99,14 +115,16 @@ function App() {
             </p>
           </ContentLorem1>
         </div>
-        <hr />
+
         <ContentImg2>
-          3
-          <img src="" alt="" />
+          <img src={Ilustra_3} alt="" />
         </ContentImg2>
         <div>
+          <ImgCenter2>
+            <h2>222</h2>
+          </ImgCenter2>
           <ContentLorem2>
-            3<h2>Lorem, ipsum.</h2>
+            <h2>Lorem, ipsum.</h2>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Asperiores error quas quaerat ea. Earum sequi est corporis fugiat
@@ -120,15 +138,16 @@ function App() {
             </p>
           </ContentLorem2>
         </div>
-        <hr />
+
         <ContentImg3>
-          4
-          <img src="" alt="" />
+          <img src={Ilustra_4} alt="" />
         </ContentImg3>
         <div>
-          <hr />
+          <ImgCenter3>
+            <h1>333</h1>
+          </ImgCenter3>
           <ContentLorem3>
-            4<h2>Lorem, ipsum.</h2>
+            <h2>Lorem, ipsum.</h2>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Asperiores error quas quaerat ea. Earum sequi est corporis fugiat
@@ -142,12 +161,8 @@ function App() {
             </p>
           </ContentLorem3>
         </div>
-        <hr />
       </PageTwo>
-      <hr />
-      <PageThree>pagina 3</PageThree>;
-      <hr />
-      <PageFour>pagina 4</PageFour>
+      <PageThree></PageThree>;<PageFour></PageFour>
     </>
   );
 }
